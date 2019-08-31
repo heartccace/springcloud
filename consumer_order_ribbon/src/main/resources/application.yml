@@ -3,8 +3,6 @@ server:
 spring:
   application:
     name: consumer-order-ribbon
-user:
-  url: http://localhost:7900/user/
 eureka:
   instance:
     prefer-ip-address: true
@@ -12,3 +10,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://user:123@localhost:9900/eureka
+user:
+  url: http://localhost:7900/user/

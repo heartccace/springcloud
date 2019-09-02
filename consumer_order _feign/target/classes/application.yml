@@ -1,8 +1,10 @@
 server:
-  port: 6900 #程序启动后的端口
+  port: 8900
 spring:
   application:
-    name: provider-user #应用名称
+    name: consumer-order
+user:
+  url: http://localhost:7900/user/
 eureka:
   instance:
     prefer-ip-address: true

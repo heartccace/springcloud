@@ -12,3 +12,9 @@ eureka:
       defaultZone: http://user:123@localhost:9900/eureka
 user:
   url: http://localhost:7900/user/
+PROVIDER-USER:
+  ribbon:                  # 配置文件类为 CommonClientConfigKey 实现负载均衡
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #配置方式指定负载均衡算法
+#ribbon:
+#  eureka:
+#    enabled: false #金庸ribbon

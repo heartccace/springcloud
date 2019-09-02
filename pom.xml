@@ -17,7 +17,8 @@
       <module>provider_user</module>
       <module>consumer_order</module>
       <module>eureka</module>
-     <!-- <module>consumer_order_ribbon</module>-->
+      <module>consumer_order_ribbon</module>
+      <module>consumer_order _feign</module>
     </modules>
 
     <name>micservice</name>

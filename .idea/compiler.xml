@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consumer_order_feign" />
+        <module name="consumer_order" />
         <module name="provider_user" />
         <module name="consumer_order_ribbon" />
         <module name="eureka" />
-        <module name="consumer_order" />
+        <module name="consumer_order_hystrix" />
+        <module name="consumer_order_feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="consumer_order" options="-parameters" />
       <module name="consumer_order (1)" options="-parameters" />
       <module name="consumer_order_feign" options="-parameters" />
+      <module name="consumer_order_hystrix" options="-parameters" />
       <module name="consumer_order_ribbon" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="provider_user" options="-parameters" />

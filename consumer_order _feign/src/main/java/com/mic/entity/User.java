@@ -44,4 +44,14 @@ public class User {
         this.data = data;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", id=" + id +
+                ", data=" + data +
+                '}';
+    }
+
 }

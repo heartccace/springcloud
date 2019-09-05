@@ -12,3 +12,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://user:123@localhost:9900/eureka
+logging:
+  level:
+    com.mic.feign.OrderClient: debug

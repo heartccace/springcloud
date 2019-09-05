@@ -19,6 +19,7 @@
       <module>eureka</module>
       <module>consumer_order_ribbon</module>
       <module>consumer_order _feign</module>
+      <module>consumer_order_hystrix</module>
     </modules>
 
     <name>micservice</name>

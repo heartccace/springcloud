@@ -1,6 +1,7 @@
 package com.mic.controller;
 
 import com.mic.entity.User;
+import com.mic.feign.OrderClient;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,8 @@ public class OrderController {
     private RestTemplate restTemplate;
     @Autowired
     private EurekaClient eurekaClient;
+    @Autowired
+    private OrderClient orderClient;
     // private String url = "http://localhost:7900/user/";
     @Value("${user.url}")
     private String url;
@@ -35,5 +38,22 @@ public class OrderController {
         InstanceInfo instance = eurekaClient.getNextServerFromEureka("provider-user", false);
         User user = restTemplate.getForObject(instance.getHomePageUrl() + "user/" + id, User.class);
         return user;
+    }
+
+//    @GetMapping("/feign/{id}")
+//    public User getUserByFeign(@PathVariable Long id) {
+//        return orderClient.getUser(id);
+//    }
+//
+//    @GetMapping("/postuser")
+//    public User getUserByFeign1(User user) {
+//        System.out.println(user);
+//        return orderClient.getUser1(user);
+//    }
+
+    @GetMapping("/feign1/{id}")
+    public User getUserByFeign1(@PathVariable Long id) {
+
+        return orderClient.getUser2(id);
     }
 }

@@ -43,4 +43,14 @@ public class User {
     public void setData(Date data) {
         this.data = data;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", id=" + id +
+                ", data=" + data +
+                '}';
+    }
 }

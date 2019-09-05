@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a1c0232-fb48-464d-889d-f3cd04da31ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/consumer_order _feign/src/main/java/com/mic/feign/OrderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer_order _feign/src/main/java/com/mic/feign/OrderClientConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_ribbon/src/main/java/com/mic/ConsumerApplicationBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_ribbon/src/main/java/com/mic/ConsumerApplicationBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_ribbon/src/main/java/com/mic/configuration/RibbonConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_ribbon/src/main/java/com/mic/configuration/RibbonConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_ribbon/src/main/java/com/mic/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_ribbon/src/main/java/com/mic/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_ribbon/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_ribbon/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_ribbon/target/classes/com/mic/ConsumerApplicationBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_ribbon/target/classes/com/mic/ConsumerApplicationBootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_ribbon/target/classes/com/mic/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_ribbon/target/classes/com/mic/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_order _feign/src/main/java/com/mic/ConsumerApplicationBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/src/main/java/com/mic/ConsumerFeignApplicationBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_order _feign/src/main/java/com/mic/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/src/main/java/com/mic/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_order _feign/src/main/java/com/mic/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/src/main/java/com/mic/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_order _feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_order _feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_order _feign/target/classes/com/mic/ConsumerApplicationBootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_order _feign/target/classes/com/mic/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/target/classes/com/mic/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_order _feign/target/classes/com/mic/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/target/classes/com/mic/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_user/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider_user/src/main/java/com/mic/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_user/src/main/java/com/mic/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider_user/src/main/java/com/mic/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_user/src/main/java/com/mic/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider_user/target/classes/com/mic/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_user/target/classes/com/mic/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider_user/target/classes/com/mic/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_user/target/classes/com/mic/entity/User.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,6 +47,12 @@
       <MavenGeneralSettings>
         <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1Q2xVRjhF0BJqSPUUXAII4nrO00" />
@@ -65,7 +76,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplicationBootstrap (1)">
+  <component name="RunManager" selected="Spring Boot.ConsumerFeignApplicationBootstrap">
     <configuration name="ConsumerApplicationBootstrap (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="consumer_order_ribbon" />
       <extension name="coverage">
@@ -107,6 +118,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mic.ConsumerApplicationBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignApplicationBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer_order_feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mic.ConsumerFeignApplicationBootstrap" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,12 +167,14 @@
       <item itemvalue="Spring Boot.EurekaBootstrap" />
       <item itemvalue="Spring Boot.ProviderUserBootstrap" />
       <item itemvalue="Spring Boot.ConsumerApplicationBootstrap (1)" />
+      <item itemvalue="Spring Boot.ConsumerFeignApplicationBootstrap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerApplicationBootstrap (1)" />
+        <item itemvalue="Spring Boot.ConsumerFeignApplicationBootstrap" />
         <item itemvalue="Spring Boot.ProviderUserBootstrap" />
         <item itemvalue="Spring Boot.EurekaBootstrap" />
+        <item itemvalue="Spring Boot.ConsumerApplicationBootstrap (1)" />
         <item itemvalue="Spring Boot.ConsumerApplicationBootstrap" />
       </list>
     </recent_temporary>
@@ -169,7 +195,9 @@
       <workItem from="1567225476226" duration="917000" />
       <workItem from="1567226615468" duration="247000" />
       <workItem from="1567226915153" duration="12616000" />
-      <workItem from="1567388588608" duration="4444000" />
+      <workItem from="1567388588608" duration="9093000" />
+      <workItem from="1567479143479" duration="3803000" />
+      <workItem from="1567658068817" duration="1547000" />
     </task>
     <servers />
   </component>
@@ -195,6 +223,14 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.2.RELEASE/spring-cloud-netflix-ribbon-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonClient.class</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClientsConfiguration.class</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

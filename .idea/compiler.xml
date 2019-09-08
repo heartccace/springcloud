@@ -10,8 +10,10 @@
         <module name="provider_user" />
         <module name="consumer_order_ribbon" />
         <module name="eureka" />
+        <module name="consumer_hystrix_dashboard" />
         <module name="consumer_order_hystrix" />
         <module name="consumer_order_feign" />
+        <module name="consumer_hystrix_turbine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +22,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer_hystrix_dashboard" options="-parameters" />
+      <module name="consumer_hystrix_turbine" options="-parameters" />
       <module name="consumer_order" options="-parameters" />
       <module name="consumer_order (1)" options="-parameters" />
       <module name="consumer_order_feign" options="-parameters" />

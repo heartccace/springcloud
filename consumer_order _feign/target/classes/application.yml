@@ -15,3 +15,6 @@ eureka:
 logging:
   level:
     com.mic.feign.OrderClient: debug
+feign:
+  hystrix:
+    enabled: true

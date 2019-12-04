@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a1c0232-fb48-464d-889d-f3cd04da31ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer_order _feign/src/main/java/com/mic/hystrix/HystrixClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigetway_zuul/apigetway_zuul.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigetway_zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigetway_zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigetway_zuul/src/main/resources/application.yml.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order _feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order _feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order _feign/target/classes/META-INF/consumer_order.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order _feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order _feign/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order _feign/target/test-classes/META-INF/consumer_order.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order/src/main/java/com/mic/ConsumerApplicationBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order/src/main/java/com/mic/ConsumerApplicationBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order/target/classes/META-INF/consumer_order.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order/target/classes/com/mic/ConsumerApplicationBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order/target/classes/com/mic/ConsumerApplicationBootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order/target/test-classes/META-INF/consumer_order.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_hystrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_hystrix/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_hystrix/src/main/java/com/mic/ConsumerHystrixApplicationBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_hystrix/src/main/java/com/mic/ConsumerHystrixApplicationBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_hystrix/src/main/java/com/mic/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_hystrix/src/main/java/com/mic/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_order_hystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order_hystrix/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/target/classes/META-INF/eureka.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/target/test-classes/META-INF/eureka.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_user/target/classes/META-INF/provider_user.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider_user/target/test-classes/META-INF/provider_user.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider_user/src/main/java/com/mic/ProviderUserBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider_user/src/main/java/com/mic/ProviderUserBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider_user/target/classes/com/mic/ProviderUserBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider_user/target/classes/com/mic/ProviderUserBootstrap.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apigetway_zuul/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,6 +73,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\micservice\apigetway_zuul\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\idea_workspace\micservice\provider_user\src\main" />
     </key>
@@ -98,10 +92,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixTurbineApplicationBootstrap">
-    <configuration name="ConsumerApplicationBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mic.ConsumerApplicationBootstrap" />
-      <module name="consumer_order_ribbon" />
+  <component name="RunManager" selected="Application.SpringZuulApplication">
+    <configuration name="SpringZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mic.SpringZuulApplication" />
+      <module name="apigetway_zuul" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mic.*" />
@@ -121,6 +115,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mic.ConsumerApplicationBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignApplicationBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer_order_feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mic.ConsumerFeignApplicationBootstrap" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,10 +181,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apigetway_zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mic.SpringZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ConsumerApplicationBootstrap" />
+      <item itemvalue="Application.SpringZuulApplication" />
       <item itemvalue="Spring Boot.ConsumerHystrixApplicationBootstrap" />
       <item itemvalue="Spring Boot.HystrixDashboardApplicationBootstrap" />
+      <item itemvalue="Spring Boot.ConsumerFeignApplicationBootstrap" />
+      <item itemvalue="Spring Boot.SpringZuulApplication" />
       <item itemvalue="Spring Boot.ConsumerApplicationBootstrap" />
       <item itemvalue="Spring Boot.EurekaBootstrap" />
       <item itemvalue="Spring Boot.ProviderUserBootstrap" />
@@ -191,11 +201,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.HystrixTurbineApplicationBootstrap" />
+        <item itemvalue="Application.SpringZuulApplication" />
         <item itemvalue="Spring Boot.ProviderUserBootstrap" />
         <item itemvalue="Spring Boot.EurekaBootstrap" />
+        <item itemvalue="Spring Boot.HystrixTurbineApplicationBootstrap" />
         <item itemvalue="Spring Boot.ConsumerApplicationBootstrap" />
-        <item itemvalue="Application.ConsumerApplicationBootstrap" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +230,9 @@
       <workItem from="1567658068817" duration="3927000" />
       <workItem from="1567667810799" duration="5036000" />
       <workItem from="1567748221420" duration="3699000" />
-      <workItem from="1567922614443" duration="5070000" />
+      <workItem from="1567922614443" duration="10558000" />
+      <workItem from="1567996963252" duration="5845000" />
+      <workItem from="1568170210124" duration="917000" />
     </task>
     <servers />
   </component>

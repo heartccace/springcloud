@@ -22,6 +22,7 @@
       <module>consumer_order_hystrix</module>
       <module>consumer_hystrix_dashboard</module>
       <module>consumer_hystrix_turbine</module>
+        <module>apigetway_zuul</module>
     </modules>
 
     <name>micservice</name>
